@@ -1,0 +1,198 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 -26% 0 26%;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #add8e6;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.fullimg {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.categorytext {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    color: #747704;
+    font-weight: 400;
+}
+
+.urltext {
+    margin: 0 0 35px 0;
+    color: #747704;
+}
+
+h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 100;
+    color: #747704;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: 300;
+    color: #747704;
+}
+
+h3 {
+    font-size: 35px;
+    color: #BCBBBB;
+}
+
+header {
+    float: right;
+}
+
+.head_text h1 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.head_text h2 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.head_text {
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.left_sidebar {
+  /* VERY IMPORTANT STUFF! DO NOT CHANGE LIGHTLY!! */
+  background-color: pink;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+   width: 25%;
+   overflow-y: auto;
+}
+
+.left_sidebar img {
+  max-width: 100%;
+  height: auto;
+  padding: 2.5% 5%;
+}
+
+.left_sidebar p {
+  margin: 0 auto 0 5px;
+}
+
+.left_sidebar ul li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 32px;
+}
+
+.featuredwork {
+    margin: 40px 0 5px 5px;
+    font-weight: 400;
+}
+
+.main_content {
+    background-color: yellow;
+    float: right;
+    margin-top: 2.5%;
+}
+
+.main_content img {
+  float: left;
+  margin: 0 10px 10px 10px;
+}
+
+footer {
+  float: right;
+  background-color: yellow;
+  margin: 10px;
+  width: 100%;
+}
+
+.sub_grid {
+  margin-left: 12.5%;
+}
+
+a {
+  color: blue;
+}
+
+a: visited {
+    color: red;
+}
