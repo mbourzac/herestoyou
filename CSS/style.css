@@ -136,7 +136,7 @@ header {
 
 .left_sidebar {
   /* VERY IMPORTANT STUFF! DO NOT CHANGE LIGHTLY!! */
-  background-color: pink;
+  background-color: skyblue;
   position: fixed;
   top: 10px;
   left: 10px;
@@ -169,7 +169,7 @@ header {
 }
 
 .main_content {
-    background-color: yellow;
+    background-color: skyblue;
     float: right;
     margin-top: 2.5%;
 }
