@@ -103,7 +103,6 @@ h1 {
 h2 {
     margin: 0px;
     font-weight: 300;
-    color: #747704;
 }
 
 h3 {
@@ -128,6 +127,7 @@ header {
   display: flex;
   justify-content: center;
   font-size: 50px;
+  color: #747704;
 }
 
 .head_text {
